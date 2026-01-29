@@ -10,223 +10,30 @@ The schedule for the different curricula are listed here:
 {% endcomment %}
 
 {% if site.curriculum == "dc-astronomy" %}
-<div class="row">        <!-- first two days -->
-  <div class="col-md-6"> <!-- left column -->
+<div class="row">
+  <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr>               <!-- row 1   -->
-        <td>Before starting</td>
-        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      <tr>
+	<td>Before starting</td>
+	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr>               <!-- row 2   -->
-        <td>8:00 am</td>        <!-- time    -->
-        <td>Optional Installation Help</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 3   -->
-        <td>9:00 am</td>        <!-- time    -->
-        <td>Introduction</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 4   -->
-        <td>9:30 am</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/01-query.html">Basic Queries</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 5   -->
-        <td>10:30 am</td>        <!-- time    -->
-        <td>Break</td>        <!-- content -->
-      </tr>
-    <tr>               <!-- row 6   -->
-      <td>11:00 am</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/01-query.html">Basic Queries Cont.</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 7   -->
-      <td>11:30 am</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/02-coords.html">Coordinate Transformations</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 8   -->
-      <td>12:00 pm</td>        <!-- time    -->
-      <td>Lunch</td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 9   -->
-      <td>1:00 pm</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/02-coords.html">Coordinate Transformations Cont.</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 10   -->
-      <td>2:00 pm</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/03-transform.html">Plotting and Tabular Data</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 11   -->
-      <td>3:00 pm</td>        <!-- time    -->
-      <td>Break</td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 12   -->
-      <td>3:30 pm</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/04-motion.html">Plotting and Pandas</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 13   -->
-      <td>4:30 pm</td>        <!-- time    -->
-      <td>Wrap up</td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 14   -->
-      <td>5:00pm</td>        <!-- time    -->
-      <td>Done</td>        <!-- content -->
-    </tr>
-  </table>
+      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/astronomy-python/01-query.html/">Basic Queries</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/astronomy-python/02-coords.html">Coordinate Transformations</a></td></tr>
+      <tr><td>Afternoon</td> <td> <a href="https://datacarpentry.org/astronomy-python/03-transform.html">Plotting and Tabular Data</a></td></tr>
+      <tr><td> </td> <td> <a href="https://datacarpentry.org/astronomy-python/04-motion.html">Plotting and Pandas</a></td></tr>
+    </table>
   </div>
-  <div class="col-md-6"> <!-- right column -->
+  <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr>               <!-- row 1   -->
-        <td>9:00am</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/05-select.html">Transform and Select</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 2   -->
-        <td>10:30 am</td>        <!-- time    -->
-        <td>Break</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 3   -->
-        <td>11:00am</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/06-join.html">Join</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 4   -->
-        <td>12:30pm</td>        <!-- time    -->
-        <td>Lunch</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 5   -->
-        <td>1:30pm</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/07-photo.html">Photometry</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 6   -->
-        <td>2:30pm</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/08-plot.html">Visualization</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 7   -->
-        <td>3:00pm</td>        <!-- time    -->
-        <td>Break</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 8   -->
-        <td>3:30pm</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/08-plot.html">Visualization Cont</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 9   -->
-        <td>4:45pm</td>        <!-- time    -->
-        <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>               <!-- row 10   -->
-        <td>5:00pm</td>        <!-- time    -->
-        <td>Done</td>        <!-- content -->
-      </tr>
+      <tr><td>Morning</td><td><a href="https://datacarpentry.org/astronomy-python/05-select.html">Transform and Select</a></td></tr>
+      <tr><td> </td> <td> <a href="https://datacarpentry.org/astronomy-python/06-join.html">Join</a></td></tr>
+      <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/astronomy-python/07-photo.html">Photometry</a></td></tr>
+      <tr><td> </td><td><a href="https://datacarpentry.org/astronomy-python/08-plot.html">Visualization</a></td></tr>
     </table>
   </div>
 </div>
-<div class="row">        <!-- first two days -->
-  <div class="col-md-6"> <!-- left column -->
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr>               <!-- row 1   -->
-        <td>Before starting</td>
-        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr>               <!-- row 2   -->
-        <td>8:00 am</td>        <!-- time    -->
-        <td>Optional Installation Help</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 3   -->
-        <td>9:00 am</td>        <!-- time    -->
-        <td>Introduction</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 4   -->
-        <td>9:30 am</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/01-query.html">Basic Queries</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 5   -->
-        <td>10:30 am</td>        <!-- time    -->
-        <td>Break</td>        <!-- content -->
-      </tr>
-    <tr>               <!-- row 6   -->
-      <td>11:00 am</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/01-query.html">Basic Queries Cont.</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 7   -->
-      <td>11:30 am</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/02-coords.html">Coordinate Transformations</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 8   -->
-      <td>12:00 pm</td>        <!-- time    -->
-      <td>Lunch</td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 9   -->
-      <td>1:00 pm</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/02-coords.html">Coordinate Transformations Cont.</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 10   -->
-      <td>2:00 pm</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/03-transform.html">Plotting and Tabular Data</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 11   -->
-      <td>3:00 pm</td>        <!-- time    -->
-      <td>Break</td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 12   -->
-      <td>3:30 pm</td>        <!-- time    -->
-      <td><a href="https://datacarpentry.org/astronomy-python/instructor/04-motion.html">Plotting and Pandas</a></td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 13   -->
-      <td>4:30 pm</td>        <!-- time    -->
-      <td>Wrap up</td>        <!-- content -->
-    </tr>
-    <tr>               <!-- row 14   -->
-      <td>5:00pm</td>        <!-- time    -->
-      <td>Done</td>        <!-- content -->
-    </tr>
-  </table>
-  </div>
-  <div class="col-md-6"> <!-- right column -->
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr>               <!-- row 1   -->
-        <td>9:00am</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/05-select.html">Transform and Select</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 2   -->
-        <td>10:30 am</td>        <!-- time    -->
-        <td>Break</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 3   -->
-        <td>11:00am</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/06-join.html">Join</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 4   -->
-        <td>12:30pm</td>        <!-- time    -->
-        <td>Lunch</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 5   -->
-        <td>1:30pm</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/07-photo.html">Photometry</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 6   -->
-        <td>2:30pm</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/08-plot.html">Visualization</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 7   -->
-        <td>3:00pm</td>        <!-- time    -->
-        <td>Break</td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 8   -->
-        <td>3:30pm</td>        <!-- time    -->
-        <td><a href="https://datacarpentry.org/astronomy-python/instructor/08-plot.html">Visualization Cont</a></td>        <!-- content -->
-      </tr>
-      <tr>               <!-- row 9   -->
-        <td>4:45pm</td>        <!-- time    -->
-        <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>               <!-- row 10   -->
-        <td>5:00pm</td>        <!-- time    -->
-        <td>Done</td>        <!-- content -->
-      </tr>
-    </table>
-  </div>
-</div>
-  
 
 {% elsif site.curriculum == "dc-image" %}
 <div class="row">
@@ -311,33 +118,75 @@ The schedule for the different curricula are listed here:
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Apr 8</h3>
     <table class="table table-striped">
       <tr>
 	<td>Before starting</td>
 	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/organization-genomics/">Project Organization and Management</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/shell-genomics/">Introduction to the Command Line</a></td></tr>
-      <tr><td>Afternoon</td><td><a href="https://datacarpentry.org/wrangling-genomics/">Data Wrangling and Processing</a></td></tr>
-			<tr> <td>Evening</td> <td>END</td> </tr>
+      </tr>	    
+      <tr> <td>3:30</td>  <td> <a href="https://datacarpentry.org/organization-genomics/">Project Organization and Management</a> </td> </tr>
+      <tr> <td>4:30</td>  <td>Break</td> </tr>
+      <tr> <td>4:45</td>  <td> <a href="https://datacarpentry.org/shell-genomics/">Introduction to the Command Line</a> </td> </tr> 
+      <tr> <td>5:30</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>5:45</td>  <td>END</td> </tr>    
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-			<tr><td>Morning</td><td><a href="https://datacarpentry.org/wrangling-genomics/">Continuation: Data Wrangling and Processing</a></td></tr>
-			<tr><td>Afternoon</td><td><a href="https://datacarpentry.org/cloud-genomics/">Introduction to Cloud Computing for Genomics</a></td></tr>
-      <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>
-	<td> </td>
-	<td> END </td>
-      </tr>
+    <h3>Apr 10</h3>
+    <table class="table table-striped">	    
+      <tr> <td>3:30</td>  <td>Introduction to the Command Line continued</td> </tr>
+      <tr> <td>4:30</td>  <td>Break</td> </tr>
+      <tr> <td>4:45</td>  <td> <a href="https://datacarpentry.org/wrangling-genomics/">Data Wrangling and Processing</a> </td> </tr>
+      <tr> <td>5:30</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>5:45</td>  <td>END</td> </tr>    
+    </table>
+  </div>	
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h3>Apr 15</h3>
+    <table class="table table-striped">   
+      <tr> <td>3:30</td>  <td>Data Wrangling and Processing continued</td> </tr>
+      <tr> <td>4:30</td>  <td>Break</td> </tr>
+      <tr> <td>4:45</td>  <td>Data Wrangling and Processing continued </td> </tr>
+      <tr> <td>5:30</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>5:45</td>  <td>END</td> </tr>    
     </table>
   </div>
+  <div class="col-md-6">
+    <h3>Apr 17</h3>
+    <table class="table table-striped">	    
+      <tr> <td>3:30</td>  <td><a href="https://datacarpentry.org/cloud-genomics/">Introduction to Cloud Computing for Genomics</a></td> </tr>
+      <tr> <td>4:30</td>  <td>Break</td> </tr>
+      <tr> <td>4:45</td>  <td>Visualizing genomic data </td> </tr>
+      <tr> <td>5:30</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>5:45</td>  <td>END</td> </tr>
+    </table>
+  </div>	
+</div>
+<div class="row">
+  <div class="col-md-6">
+ <h3>Apr 22</h3>
+    <table class="table table-striped">	    
+      <tr> <td>3:30</td>  <td>Visualizing genomic data continued</td> </tr>
+      <tr> <td>4:30</td>  <td>Break</td> </tr>
+      <tr> <td>4:45</td>  <td>Visualizing genomic data continued</td> </tr>
+       <tr> <td>5:30</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>5:45</td>  <td>END</td> </tr>
+    </table>
+  </div>	
+</div>
+<div class="row">
+  <div class="col-md-6">
+ <h3>Apr 24</h3>
+    <table class="table table-striped">	    
+      <tr> <td>3:30</td>  <td>Visualizing genomic data continued</td> </tr>
+      <tr> <td>4:30</td>  <td>Break</td> </tr>
+      <tr> <td>4:45</td>  <td>Visualizing genomic data continued</td> </tr>
+       <tr> <td>5:30</td>  <td>Wrap-up</td> </tr>
+       <tr> <td>5:45</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td> </tr>  
+    </table>
+  </div>	
 </div>
 
 {% elsif site.curriculum == "dc-socsci" %}
